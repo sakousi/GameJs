@@ -4,17 +4,50 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Integration virgin template</title>
+        <title>Jeux JS</title>
     
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Fonts Google -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">    
         
+        <!-- Stylesheets -->
         <link rel="stylesheet" href="assets/css/reset.css" />
         <link rel="stylesheet" href="assets/css/styles.css" />
-
-    </head>
+        
+        
+        <!-- FontAwsome -->
+        <script src="https://kit.fontawesome.com/6f97fb590a.js" crossorigin="anonymous"></script>    </head>
 
 <body>
-
+    <header class="hero">
+        <div class="hero__overlay">
+            <div class="hero__overlay_infos">
+                <h1 class="hero__overlay_infos_mainTitle">Ma librairie de jeux</h1>
+                <p class="hero__overlay_infos_desc">Mes jeux 100% codée a la main et en JS <i class="fa-solid fa-alien-8bit"></i></p>
+            </div>
+        </div>
+    </header>
 </body>
+
+<section class="arcades container">
+    <h2 class="arcades__title">Arcades games:</h2>
+    <div class="arcades__cards">
+        <div class="arcades__cards_card">
+                <a href="games/pong.html">
+                <div class="arcades__cards_card_img">
+                    <img class="arcades__cards_card_img_image" src="" alt="Capture d'ecran du pong">
+                </div>
+                <div class="arcades__cards_card_info">
+                    <h3 class="arcades__cards_card_info_title">Le pong</h3>
+                    <p class="arcades__cards_card_info_player">Joueurs: 2 <i class="fa-solid fa-user"></i></p>
+                    <p class="arcades__cards_card_info_desc">Un tennis de table virtuel</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</section>
 
 </html>
